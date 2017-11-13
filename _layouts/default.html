@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/banners.css">
+  </head>
+  <body id="mainBody">
+    <div id="header">
+      <div id="title">PioNerds 4506</div>
+      <div id="bannerSection">
+        <ul class="banners">
+          <li><img src="/assets/img/firstLogo.png">2017 Iowa Regional Champions</li>
+        </ul>
+      </div> 
+      <div>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+<!--            <div class="collapse navbar-collapse" id="myNavbar">-->
+              <ul class="nav navbar-nav" id="mainNav">
+                <li><a href="/index.html">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/team.html">The Team</a></li>
+                    <li><a href="/leaders.html">Student Leaders</a></li>
+<!--                    <li><a href="/mentors.html">Mentors</a></li>-->
+                  </ul>
+                </li>
+                <li><a href="/firstrobotics.html">FRC</a></li>
+                <li><a href="/firstlegoleague.html">FLL</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/photos.html">Photos</a></li>
+                    <li><a href="/videos.html">Videos</a></li>
+                    <li><a href="/publicity.html">Publicity</a></li>
+                  </ul>
+                </li>
+                <li><a href="/resources.html">Resources</a></li>
+                <li><a href="/sponsors.html">Sponsors</a></li>
+                <li><a href="/members.html">Members</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right" id="socialMediaNav">
+                <li><a href="https://www.facebook.com/Pionerds4506/" target="_blank"><img src="assets/img/facebook.png" /></a></li>
+                <li><a href="https://twitter.com/hmrobotics4506" target="_blank"><img src="assets/img/twitter.png" /></a></li>
+              </ul>
+<!--            </div>-->
+          </div>
+        </nav>
+      </div>
+    </div>    
+    <div id="sponsors">
+      <h1>Thank you sponsors</h1>
+      <img src="/assets/img/sponsors/3m.png">
+      <img style="width:140px; height: 76px;" src="/assets/img/sponsors/ReilingConstruction.png">
+    </div>
+    <div id="mainSection">
+        
+      {{ content }}
+        
+    </div>
+    <div id="footer">
+      <a href="http://www.hill-murray.org/" target="_blank"> <img src="/assets/img/Hill-MurrayLogo.png"> </a>
+<!--         <div id="flexCont">
+            <div style="padding: 10px; ">
+               <p>Team 4506</p>
+               <p>TBD</p>
+            </div>
+         </div>-->
+    </div>
+  </body>
+  <script src="/js/navigation.js"> </script>
+</html>

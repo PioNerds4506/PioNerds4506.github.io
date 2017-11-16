@@ -1,3 +1,9 @@
+- title: Duluth Regional
+  start: 2018-03-07 17:00
+  end: 2018-03-10 17:00
+  allDay: false
+  url: 
+
 - title: Iowa Regional
   start: 2018-03-21 17:00
   end: 2018-03-24 17:00
@@ -50,6 +56,48 @@
   description: "Animations must be submitted by your team’s student award submitter in Youth Registration between Thursday, November 9th, 2017 at 12:00 PM, Noon (ET) and Thursday, December 7th, 2017 at 3:00 PM ET."
   allDay: false
   url: https://www.firstinspires.org/robotics/frc/safety
+
+- title: Full Team Practice
+  start: 2017-12-14 14:30
+  end: 2017-12-14 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
+
+- title: Full Team Practice
+  start: 2017-12-12 14:30
+  end: 2017-12-12 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
+
+- title: Full Team Practice
+  start: 2017-12-07 14:30
+  end: 2017-12-07 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
+
+- title: Full Team Practice
+  start: 2017-12-05 14:30
+  end: 2017-12-05 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
+
+- title: Full Team Practice
+  start: 2017-11-30 14:30
+  end: 2017-11-30 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
+
+- title: Full Team Practice
+  start: 2017-11-28 14:30
+  end: 2017-11-28 16:30
+  description: This is a full team practice.
+  allDay: false
+  url: 
 
 - title: Minne Mini
   start: 2017-11-18 08:00

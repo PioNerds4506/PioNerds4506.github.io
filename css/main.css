@@ -55,6 +55,10 @@ hr {
    border-top-color: black;
 }
 
+h5 {
+   font-weight: bold;
+}
+
 #mainSection {
    background: white;
    padding: 10px 0px;

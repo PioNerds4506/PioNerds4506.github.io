@@ -239,12 +239,11 @@
   allDay: false
   url: 
 
-- title: Safety Animation Submission Closes
-  start: 2017-12-07 14:00
-  end: 2017-12-07 14:00
-  description: "Animations must be submitted by your team’s student award submitter in Youth Registration between Thursday, November 9th, 2017 at 12:00 PM, Noon (ET) and Thursday, December 7th, 2017 at 3:00 PM ET."
+- title: Pizzas Delivered
+  start: 2017-12-19 14:30
+  end: 2017-12-19 14:30
+  description: Pizzas will be delivered to school.  Please pick up your orders and deliver to customers.
   allDay: false
-  url: https://www.firstinspires.org/robotics/frc/safety
 
 - title: Full Team Practice
   start: 2017-12-14 14:30
@@ -259,6 +258,13 @@
   description: This is a full team practice.
   allDay: false
   url: 
+
+- title: Safety Animation Submission Closes
+  start: 2017-12-07 14:00
+  end: 2017-12-07 14:00
+  description: "Animations must be submitted by your team’s student award submitter in Youth Registration between Thursday, November 9th, 2017 at 12:00 PM, Noon (ET) and Thursday, December 7th, 2017 at 3:00 PM ET."
+  allDay: false
+  url: https://www.firstinspires.org/robotics/frc/safety
 
 - title: Full Team Practice
   start: 2017-12-07 14:30

@@ -1,94 +1,96 @@
 html {
-   background: #006f4e;
-   padding: 0px 100px;
+/*   background: #006f4e;*/
+  background: #00410A;
+  padding: 0px 100px;
 }
 
 #mainBody {
-   background: #006f4e;
-}
+/*   background: #006f4e;*/
+  background: #00410A;
+  }
 
 #header {
 /*   background: url("../assets/img/PioNerds.png") no-repeat top left;
    background-size: 261px 162px;*/
-   background: url("../assets/img/PioNerds_logo.png") no-repeat top left;
-   background-size: 128px 162px;
+  background: url("../assets/img/PioNerds_logo.png") no-repeat top left;
+  background-size: 128px 162px;
 }
 
 #title {
-   font-family: Courier New, Courier, monospace;
-   font-weight: bold;
-   font-size: 60px;
-   color: black;
-   margin-left: 170px;
-   margin-top: 40px;
-   float: left;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+  margin-left: 170px;
+  margin-top: 40px;
+  float: left;
 }
 
 .navbar {
-   margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 #socialMediaNav li a img {
-   max-width: 40px;
-   max-height: 40px;
-   margin: 5px 0px 5px 0px;
+  max-width: 40px;
+  max-height: 40px;
+  margin: 5px 0px 5px 0px;
 } 
 
 #socialMediaNav li a {
-   padding: 0px 15px;
+  padding: 0px 15px;
 }
 
 #socialMediaNav li {
-   padding: 0px;
-   margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #sponsors {
-   text-align: center;
-   background: #EEFFE8;
+  text-align: center;
+  background: #EEFFE8;
 }
 
 #sponsors img {
-   padding: 0 15px;
+  padding: 0 15px;
 }
 
 hr {
-   border-top-color: black;
+  border-top-color: black;
 }
 
 h5 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 #mainSection {
-   background: white;
-   padding: 10px 0px;
+  background: white;
+  padding: 10px 0px;
 }
 
 #footer {
-   height: 100px;
-   background: #404040;
-   color: white;
+  height: 100px;
+  background: #404040;
+  color: white;
 }
 
 #flexCont {
-   display: flex;
-   background: yellow;
+  display: flex;
+  background: yellow;
 }
 
 #footer img {
-   height: 100%;
-   width: auto;
-   padding: 10px;
-   float: right;
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  float: right;
 }
 
 .hide {
-   display: none;
+  display: none;
 }
 
 .show {
-   display: block;
+  display: block;
 }
 
 /* Home page */
@@ -96,409 +98,409 @@ h5 {
 }
 
 #introduction {
-   padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 #programs {
-   background: lightslategray;
-   margin: 0;
-   padding: 10px 20px;
+  background: lightslategray;
+  margin: 0;
+  padding: 10px 20px;
 }
 
 .row {
-   margin: 0;
-   padding: 10px 30px;
+  margin: 0;
+  padding: 10px 30px;
 }
 
 .darkRow {
-   background: #F1F1F1;
+  background: #F1F1F1;
 }
 
 .lightRow {
 }
 
 .rowHeader {
-   margin: 0px;
+  margin: 0px;
 }
 
 .rowContent {
-   padding: 0px 10px;
-   overflow: auto;
+  padding: 0px 10px;
+  overflow: auto;
 }
 
 .rowHeaderBtn {
-   margin-left: 20px;
-   color: blue;
-   background: transparent;
-   border-color: blue;
+  margin-left: 20px;
+  color: blue;
+  background: transparent;
+  border-color: blue;
 }
 
 .rowBtn {
-   float: right;
+  float: right;
 }
 
 .rowBtn img {
-   height: 100px;
-   width: auto;
+  height: 100px;
+  width: auto;
 }
 
 /* About pages */
 #aboutHeader {
-   font-weight: bold;
-   font-size: xx-large;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 #aboutNavbar {
-   background: transparent;
-   border-width: 0;
-   margin: 10px 20px 0px 20px;
+  background: transparent;
+  border-width: 0;
+  margin: 10px 20px 0px 20px;
 }
 
 #aboutNavbar li {
-   border-left: 1px solid lightgray;
-   border-top: 1px solid lightgray;
-   border-right: 1px solid lightgray;
-   border-top-left-radius: 4px;
-   border-top-right-radius: 4px;
-   font-weight: bold;   
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-weight: bold;   
 }
 
 #aboutNavbar hr {
-   margin-top: 5px;
+  margin-top: 5px;
 }
 
 #leadersPage h2 {
-   font-weight: bold;
-   margin-top: 0px;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 .leaderRow {
-   display: -webkit-flex;
-   display: flex;
-   margin-bottom: 20px;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .leaderLeft {
-   width: 200px;
-   margin-left: 20px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 .leaderMiddle {
-   width: 200px;
-   margin-left: 60px;
+  width: 200px;
+  margin-left: 60px;
 }
 
 .leaderRight {
-   width: 200px;
-   margin-left: 60px;
+  width: 200px;
+  margin-left: 60px;
 }
 
 .leaderTitle {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 #teamPage {
-   margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 #leadersPage {
-   margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 #mentorsPage {
-   margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 /* First Robotics page */
 #firstRoboticsPage {
-   margin: 20px 30px;
+  margin: 20px 30px;
 }
 
 .robotdesciption {
-   clear: right;
+  clear: right;
 }
 
 .robotdesciption h2 a {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .readMore {
-   clear: right;
-   height: 34px;
+  clear: right;
+  height: 34px;
 }
 
 .btnReadMore {
-   float: right;
+  float: right;
 }
 
 /* FRC Season pages */ 
 .frcSeasonDescription {
-   margin-bottom: 20px; 
+  margin-bottom: 20px; 
 }
 
 .frcSeasonPage {
-   margin: 0px 30px;
+  margin: 0px 30px;
 }
 
 .frcSeasonPage h2 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .frcSeasonPage h3 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .frcSeasonRobotDescription {
-   display: -webkit-flex;
-   display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .frcSeasonRobotDescription img {
-   height: 200px;
-   width: auto;
+  height: 200px;
+  width: auto;
 }
 
 .frcSeasonRobotDescription div {
-   margin: 10px;
+  margin: 10px;
 }
 
 .gameInfoContainer {
-   display: -webkit-flex;
-   display: flex;
-   margin-top: 20px;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20px;
 }
 
 .gameDescription {
-   width: 340px;
+  width: 340px;
 }
 
 .gameDescription .btn {
-   padding: 0;
+  padding: 0;
 }
 
 .gameDescription p {
-   font-size: 14px;
-   width: 340px;
+  font-size: 14px;
+  width: 340px;
 }
 
 .gameDescription img {
-   display: block;
-   margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .gameRevealVideo {
-   width: 100%;
+  width: 100%;
 }
 
 .gameRevealVideo iframe {
-   width: 100%;
-   height: 100%;
-   min-height: 400px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
 }
 
 /* Lego League page */
 .fllSeasonPage {
-   margin: 0px 30px;
+  margin: 0px 30px;
 }
 
 .fllSeasonPage h2 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .fllSeason {
-   display: -webkit-flex;
-   display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .fllChallengeLogo img {
-   width: 200px;
-   height: auto;
+  width: 200px;
+  height: auto;
 }
 
 
 /* Media pages */
 #mediaHeader {
-   font-weight: bold;
-   font-size: xx-large;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 #mediaNavbar {
-   background: transparent;
-   border-width: 0;
-   margin: 10px 20px 0px 20px;
+  background: transparent;
+  border-width: 0;
+  margin: 10px 20px 0px 20px;
 }
 
 #mediaNavbar li {
-   border-left: 1px solid lightgray;
-   border-top: 1px solid lightgray;
-   border-right: 1px solid lightgray;
-   border-top-left-radius: 4px;
-   border-top-right-radius: 4px;   
-   font-weight: bold;   
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;   
+  font-weight: bold;   
 }
 
 #mediaNavbar hr {
-   margin-top: 5px;
+  margin-top: 5px;
 }
 
 #photos {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 #photos h2 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .photoGalleryLinks {
-   clear: left;
-   overflow: auto;
-   margin-bottom: 10px;
+  clear: left;
+  overflow: auto;
+  margin-bottom: 10px;
 }
 
 .photoGalleryLinks h2 {
-   margin: 0;
+  margin: 0;
 }
 
 .photoGalleryLink {
-   position: relative;
-   text-align: center;
-   margin: 5px 0px 5px 10px;
-   border: 1px solid #ccc;
-   float: left;
-   width: 202px;
-   height: 142px;
+  position: relative;
+  text-align: center;
+  margin: 5px 0px 5px 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 202px;
+  height: 142px;
 }
 
 .photoGalleryLink:hover {
-   border: 1px solid #777;   
+  border: 1px solid #777;   
 }
 
 .photoGalleryLink h6 {
-   font-weight: bold;
-   color: white;
-   background: rgba(0, 0, 0, 0.7);
-   position: absolute;
-   text-align: center;
-   margin: 0;
-   padding: 10px;
-   width: 200px;
-   bottom: 0px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  bottom: 0px;
 }
 
 .photoGalleryLink img {
-   width: 200px;
-   height: 140px;
+  width: 200px;
+  height: 140px;
 }
 
 .photoGallery {
-   padding: 10px 10px;
+  padding: 10px 10px;
 }
 
 .photo {
-   margin: 5px;
-   float: left;
+  margin: 5px;
+  float: left;
 }
 
 .photo img {
-   width: 200px;
-   height: 140px;
-   cursor: pointer;
+  width: 200px;
+  height: 140px;
+  cursor: pointer;
 }
 
 .photoTall {
-   margin: 5px;
-   float: left;
+  margin: 5px;
+  float: left;
 }
 
 .photoTall img {
-   width: 140px;
-   height: 200px;
-   cursor: pointer;
+  width: 140px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .endPhoto {
-   clear: left;   
+  clear: left;   
 }
 
 #fullPhoto {
-   overflow: auto;
-   margin: 20px;
+  overflow: auto;
+  margin: 20px;
 }
 
 #fullPhoto img {
-   width: 100%;
+  width: 100%;
 }
 
 .hidePhoto {
-   display: none;
+  display: none;
 }
 
 #videos {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .videoGalleryLink {
-   position: relative;
-   text-align: center;
-   margin: 5px 0px 5px 10px;
-   border: 1px solid #ccc;
-   float: left;
-   width: 202px;
-   height: 142px;
+  position: relative;
+  text-align: center;
+  margin: 5px 0px 5px 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 202px;
+  height: 142px;
 }
 
 .videoGalleryLink:hover {
-   border: 1px solid #777;   
+  border: 1px solid #777;   
 }
 
 .videoGalleryLink img {
-   width: 200px;
-   height: 140px;
-   cursor: pointer;
+  width: 200px;
+  height: 140px;
+  cursor: pointer;
 }
 
 .videoGalleryLink h6 {
-   font-weight: bold;
-   color: white;
-   background: rgba(0, 0, 0, 0.7);
-   position: absolute;
-   text-align: center;
-   margin: 0;
-   padding: 10px;
-   width: 200px;
-   bottom: 0px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  bottom: 0px;
 }
 
 #uTubeVideo {
-   width: 100%;
-   height: 480px;
+  width: 100%;
+  height: 480px;
 }
 
 .endVideo {
-   clear: left;   
+  clear: left;   
 }
 
 #publicity {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 /* Resources page */
 #resources {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 /* Sponsors page */
 #sponsorsPage {
-   padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 #sponsorsPage h3 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 #sponsorsByLevel {
-   display: -webkit-flex;
-   display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .sponsorLevel {
@@ -508,88 +510,144 @@ h5 {
 }
 
 .sponsorLevel h3 {
-   margin-top: 0px;
+  margin-top: 0px;
 }
 
 .sponsorLevelImages {
-   margin-left: 20px;
+  margin-left: 20px;
 }
 
 .sponsorLevelImages img {
-   width: auto;
-   height: 40px;
+  width: auto;
+  height: 40px;
 }
 
 #sponsorshipContainer {
-   display: -webkit-flex;
-   display: flex;
-   flex-wrap: nowrap;
-   margin-top: 20px;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
 }
 
 .sponsorshipColumns {
-   display: -webkit-flex;
-   display: flex;   
-   width: 50%;
+  display: -webkit-flex;
+  display: flex;   
+  width: 50%;
 }
 
 .sponsorshipColumns img {
-   width: 510px;
-   height: 660px;
+  width: 510px;
+  height: 660px;
 }
 
 #sponorshipBenefitsAndUses {
-   display: -webkit-flex;
-   display: flex;
-   flex-direction: column;
-   margin-left: 10px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 #sponsorshipContactInfo {
-   margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
-/* Members page */
+/* Members pages */
+#membersHeader {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+#membersNavbar {
+  background: transparent;
+  border-width: 0;
+  margin: 10px 20px 0px 20px;
+}
+
+#membersNavbar li {
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-weight: bold;   
+}
+
+#membersNavbar hr {
+  margin-top: 5px;
+}
+
+/* announcement page */
 #announcements {
-   margin: 0;
-   padding: 0px 30px;
+  margin: 0;
+  padding: 0px 30px;
 }
 
 #announcements h3 {
-   font-weight: bold;
+  font-weight: bold;
 }
 
+/* calendar page */
 #calendarSection {
-   padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 #frcCalendarKey {
-   margin-left: 250px;
-   margin-bottom: 5px;
-   padding: 0px 5px;
-   background: #3a87ad;
-   color: white;
-   width: 180px;
-   border-radius: 4px;
+  margin-left: 250px;
+  margin-bottom: 5px;
+  padding: 0px 5px;
+  background: #3a87ad;
+  color: white;
+  width: 180px;
+  border-radius: 4px;
 }
 
 #fllCalendarKey {
-   margin-left: 40px;
-   padding: 0px 5px;
-   background: green;
-   color: white;
-   width: 210px;
-   border-radius: 4px;
+  margin-left: 40px;
+  padding: 0px 5px;
+  background: green;
+  color: white;
+  width: 210px;
+  border-radius: 4px;
 }
 
 #calendar {
-   margin: 20px;
+  margin: 20px;
 }
 
+/* handbook page */
+#handbookPage {
+  padding: 10px 20px;
+}
+
+#handbook {
+  text-align: center;
+}
+
+/* drive team page */
+#driveTeamPage {
+  padding: 10px 20px;
+}
+
+#driveTeamPage h2 {
+  font-weight: bold;
+  margin: 0px 10px 20px 30px;  
+}
+
+#driveTeamDoc {
+  text-align: center;
+}
+
+/* generic */
 .hideURL {
-   display: none;
+  display: none;
 }
 
 .showURL {
-   display: block;
+  display: block;
+}
+
+.pdfDocument {
+  width: 600px;
+  height: 800px;
+  padding: 20px;
 }

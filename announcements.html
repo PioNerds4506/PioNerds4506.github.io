@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<script src="js/moment.js"> </script>
-<script src="js/fullcalendar.js"> </script>
-<script src="js/pionerdsCal.js"> </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-<div id="membersPage">
+{% include membersNavigation.html %}
+
+<div id="announcementsPage">
   <div id="announcements">
     <h3>Announcements</h3>
     <ul>
@@ -26,18 +22,6 @@ layout: default
       <li>&nbsp;7-Mar-2018 - <a href="http://mnfirst.org/duluth-regionals/" target="_blank">Duluth Regional</a></li>
       <li>21-Mar-2018 - <a href="http://iafirst.org/iowa-frc" target="_blank">Iowa Regional</a></li>
     </ul>
-    <hr>
-  </div>
-  <div id="calendarSection">
-    <div><span id="frcCalendarKey">First Robotics Team events</span><span id="fllCalendarKey">First Lego League Team events</span></div>
-<!--    <div id="frcCalendarKey">First Robotics Team events</div>
-    <div id="fllCalendarKey">First Lego League Team events</div>-->
-    <div id="calendar"></div>
-    <div id="eventContent" title="Event Details" style="display:none;">
-      Start: <span id="startTime"></span><br>
-      <div id="endTimeLabel">End: <span id="endTime"></span></div><br><br>
-      <p id="eventInfo"></p>
-      <p id="urlLink" class="hideURL"><strong><a id="eventLink" href="" target="_blank">Read More</a></strong></p>
-    </div>
-  </div>
 </div>
+
+<script src="/js/membersNavigation.js"> </script>

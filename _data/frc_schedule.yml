@@ -59,6 +59,13 @@
   allDay: true
   url: 
 
+- title: Full Team Practice
+  start: 2018-02-19 09:00
+  end: 2018-02-19 15:00
+  description: This is a full team practice.
+  allDay: false
+  url:
+
 - title: FRC Week Zero Event
   start: 2018-02-17 08:00
   end: 2018-02-17 17:00
@@ -66,8 +73,8 @@
   url: 
 
 - title: Full Team Practice
-  start: 2018-02-17 09:00
-  end: 2018-02-17 15:00
+  start: 2018-02-16 14:30
+  end: 2018-02-16 16:30
   description: This is a full team practice.
   allDay: false
   url:
@@ -94,6 +101,13 @@
   url: https://www.firstinspires.org/resource-library/frc/submitted-awards
 
 - title: Full Team Practice
+  start: 2018-02-14 14:30
+  end: 2018-02-14 16:30
+  description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Full Team Practice
   start: 2018-02-13 14:30
   end: 2018-02-13 16:30
   description: This is a full team practice.
@@ -110,6 +124,13 @@
 - title: Full Team Practice
   start: 2018-02-08 14:30
   end: 2018-02-08 16:30
+  description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Full Team Practice
+  start: 2018-02-07 14:30
+  end: 2018-02-07 16:30
   description: This is a full team practice.
   allDay: false
   url:
@@ -136,6 +157,13 @@
   url:
 
 - title: Full Team Practice
+  start: 2018-01-31 14:30
+  end: 2018-01-31 16:30
+  description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Full Team Practice
   start: 2018-01-30 14:30
   end: 2018-01-30 16:30
   description: This is a full team practice.
@@ -152,6 +180,13 @@
 - title: Full Team Practice
   start: 2018-01-25 14:30
   end: 2018-01-25 16:30
+  description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Full Team Practice
+  start: 2018-01-24 14:30
+  end: 2018-01-24 16:30
   description: This is a full team practice.
   allDay: false
   url:
@@ -185,9 +220,23 @@
   url:
 
 - title: Full Team Practice
+  start: 2018-01-17 14:30
+  end: 2018-01-17 16:30
+  description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Full Team Practice
   start: 2018-01-16 14:30
   end: 2018-01-16 16:30
   description: This is a full team practice.
+  allDay: false
+  url:
+
+- title: Parent Meeting
+  start: 2018-01-13 14:45
+  end: 2018-01-13 15:30
+  description: This is a meeting to inform the parents about the season.
   allDay: false
   url:
 

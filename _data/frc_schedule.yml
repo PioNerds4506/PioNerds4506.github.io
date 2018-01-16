@@ -212,6 +212,13 @@
   allDay: false
   url:
 
+- title: Parent Meeting
+  start: 2018-01-20 14:45
+  end: 2018-01-20 15:30
+  description: This is a meeting to inform the parents about the season.
+  allDay: false
+  url:
+
 - title: Full Team Practice
   start: 2018-01-18 14:30
   end: 2018-01-18 16:30
@@ -230,13 +237,6 @@
   start: 2018-01-16 14:30
   end: 2018-01-16 16:30
   description: This is a full team practice.
-  allDay: false
-  url:
-
-- title: Parent Meeting
-  start: 2018-01-13 14:45
-  end: 2018-01-13 15:30
-  description: This is a meeting to inform the parents about the season.
   allDay: false
   url:
 

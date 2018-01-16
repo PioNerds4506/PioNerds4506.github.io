@@ -75,7 +75,6 @@ h5 {
 
 #flexCont {
   display: flex;
-  background: yellow;
 }
 
 #footer img {
@@ -483,6 +482,23 @@ h5 {
 #publicity {
   padding: 0px 20px;
 }
+
+#publicity h3 {
+  font-weight: bold;
+}
+
+.publicityLink {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px 20px;
+}
+
+.articleSource {
+  width: 200px;
+  text-align: center;
+}
+
 
 /* Resources page */
 #resources {

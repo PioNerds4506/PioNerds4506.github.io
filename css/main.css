@@ -1,12 +1,12 @@
 html {
 /*   background: #006f4e;*/
-  background: #00410A;
+  background: #007F14;
   padding: 0px 100px;
 }
 
 #mainBody {
 /*   background: #006f4e;*/
-  background: #00410A;
+  background: #007F14;
   }
 
 #header {
@@ -17,7 +17,7 @@ html {
 }
 
 #title {
-  font-family: Courier New, Courier, monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 60px;
   color: black;
@@ -52,6 +52,7 @@ html {
 
 #sponsors img {
   padding: 0 15px;
+  height: 80px;
 }
 
 hr {
@@ -529,14 +530,25 @@ h5 {
   margin-top: 0px;
 }
 
-.sponsorLevelImages {
+.sponsorLevelImagesGold {
   margin-left: 20px;
+}
+
+
+.sponsorLevelImages {
+  margin-left: 0px;
 }
 
 .sponsorLevelImages img {
   width: auto;
   height: 40px;
 }
+
+.sponsorLevelImagesGold img {
+  width: auto;
+  height: 40px;
+}
+
 
 #sponsorshipContainer {
   display: -webkit-flex;

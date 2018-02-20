@@ -11,37 +11,80 @@
   allDay: false
   url:
 
+- title: Drive Team Practice
+  start: 2018-03-19 14:30
+  end: 2018-03-19 16:30
+  description: This is a Drive Team practice.
+  allDay: false
+  url:
+
 - title: Duluth Regional
-  start: 2018-03-07 17:00
+  start: 2018-03-08 17:00
   end: 2018-03-10 17:00
+  description: Members will be leaving at 4:30 am, 5:30 am, or 8:30 am.
   allDay: false
   url: 
 
 - title: Full Team Practice
+  start: 2018-03-07 14:30
+  end: 2018-03-07 16:30
+  description: This is a full team practice to pack up for Duluth.
+  allDay: false
+  url:
+
+- title: Drive Team Practice
   start: 2018-03-06 14:30
   end: 2018-03-06 16:30
-  description: This is a full team practice.
+  description: This is a Drive Team practice.
   allDay: false
   url:
 
-- title: Full Team Practice
+- title: Drive Team Practice
+  start: 2018-03-05 14:30
+  end: 2018-03-05 16:30
+  description: This is a Drive Team practice.
+  allDay: false
+  url:
+
+- title: Drive Team Practice
+  start: 2018-03-02 14:30
+  end: 2018-03-02 16:30
+  description: This is a Drive Team practice.
+  allDay: false
+  url:
+
+- title: Drive Team Practice
+  start: 2018-03-01 14:30
+  end: 2018-03-01 16:30
+  description: This is a Drive Team practice.
+  allDay: false
+  url:
+
+- title: Drive Team Tryouts
+  start: 2018-02-28 14:30
+  end: 2018-02-28 16:30
+  description: This is Drive Team tryouts.
+  allDay: false
+  url:
+
+- title: Drive Team Tryouts
   start: 2018-02-27 14:30
   end: 2018-02-27 16:30
-  description: This is a full team practice.
+  description: This is Drive Team tryouts.
   allDay: false
   url:
 
-- title: Full Team Practice
-  start: 2018-02-24 09:00
-  end: 2018-02-24 15:00
-  description: This is a full team practice.
+- title: Drive Team Tryouts
+  start: 2018-02-26 14:30
+  end: 2018-02-26 16:30
+  description: This is Drive Team tryouts.
   allDay: false
   url:
 
-- title: Full Team Practice
-  start: 2018-02-22 14:30
-  end: 2018-02-22 16:30
-  description: This is a full team practice.
+- title: Build Team Practice
+  start: 2018-02-21 14:30
+  end: 2018-02-21 16:30
+  description: This is a build team practice to build second robot.
   allDay: false
   url:
 

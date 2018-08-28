@@ -1,3 +1,14 @@
+var header = document.getElementById("mainNav");
+var btns = header.getElementsByClassName("w3-button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+
 function aboutNavClicked() {
    var x = document.getElementById("aboutNav");
    var y = document.getElementById("mediaNav");
@@ -43,5 +54,15 @@ function membersNavClicked() {
    } 
    else { 
       x.className = x.className.replace(" w3-show", "");
+   }
+}
+
+function barsClicked() {
+   var x = document.getElementById("mainNav");
+
+   if (x.className.indexOf("responsive") == -1) {
+       x.className += " responsive";
+   } else {
+       x.className = x.className.replace(" responsive", "");
    }
 }

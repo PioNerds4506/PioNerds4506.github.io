@@ -23,40 +23,38 @@
         </ul>
       </div>
     </div>
-    <div class="w3-bar w3-card-4 w3-black">
-      <a href="/index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Home</a>
-      <div class="w3-hide-small">
-      <div class="w3-dropdown-click w3-text-grey w3-hover-text-white">
-        <button class="w3-button" onclick="aboutNavClicked()">About <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="aboutNav">
-          <a href="/team.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">The Team</a>
-          <a href="/leaders.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Student Leaders</a>
+    <div class="w3-bar w3-card-4 w3-black topnav" id="mainNav">
+      <a href="/index.html" class="w3-bar-item w3-button w3-black w3-text-grey active">Home</a>
+      <div class="w3-dropdown-click w3-black dropdown">
+        <button class="w3-button w3-black w3-text-grey dropbtn" onclick="aboutNavClicked()">About <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 dropdown-content" id="aboutNav">
+          <a href="/team.html" class="w3-bar-item w3-button w3-black w3-text-grey">The Team</a>
+          <a href="/leaders.html" class="w3-bar-item w3-button w3-black w3-text-grey">Student Leaders</a>
         </div>
-      </div>
-      <a href="/firstrobotics.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FRC</a>
-      <a href="/firsttechchallenge.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FTC</a>
-      <a href="/firstlegoleague.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FLL</a>
-      <div class="w3-dropdown-click w3-text-grey w3-hover-text-whitel">
-        <button class="w3-button" onclick="mediaNavClicked()">Media <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="mediaNav">
-          <a href="/photos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Photos</a>
-          <a href="/videos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Videos</a>
-          <a href="/publicity.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Publicity</a>
+      </div> 
+      <a href="firstrobotics.html" class="w3-bar-item w3-button w3-black w3-text-grey">FRC</a>
+      <a href="/firsttechchallenge.html" class="w3-bar-item w3-button w3-black w3-text-grey">FTC</a>
+      <a href="/firstlegoleague.html" class="w3-bar-item w3-button w3-black w3-text-grey">FLL</a>
+      <div class="w3-dropdown-click w3-black dropdown">
+        <button class="w3-button w3-black w3-text-grey dropbtn" onclick="mediaNavClicked()">Media <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 dropdown-content" id="mediaNav">
+          <a href="/photos.html" class="w3-bar-item w3-button w3-black w3-text-grey">Photos</a>
+          <a href="/videos.html" class="w3-bar-item w3-button w3-black w3-text-grey">Videos</a>
+          <a href="/publicity.html" class="w3-bar-item w3-button w3-black w3-text-grey">Publicity</a>
         </div>
-      </div>
-      <a href="/resources.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-whitel">Resources</a>
-      <a href="/sponsors.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Sponsors</a>
-      <div class="w3-dropdown-click w3-text-grey w3-hover-text-white">
-        <button class="w3-button" onclick="membersNavClicked()">Members <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="membersNav">
-          <a href="/announcements.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Announcements</a>
-          <a href="/calendar.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Calendar</a>
-          <a href="/handbook.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Handbook</a>
-          <a href="/driveteam.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Drive Team</a>
+      </div> 
+      <a href="/resources.html" class="w3-bar-item w3-button w3-black w3-text-grey">Resources</a>
+      <a href="/sponsors.html" class="w3-bar-item w3-button w3-black w3-text-grey">Sponsors</a>
+      <div class="w3-dropdown-click w3-black dropdown">
+        <button class="w3-button w3-black w3-text-grey dropbtn" onclick="membersNavClicked()">Members <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 dropdown-content" id="membersNav">
+          <a href="/announcements.html" class="w3-bar-item w3-button w3-black w3-text-grey">Announcements</a>
+          <a href="/calendar.html" class="w3-bar-item w3-button w3-black w3-text-grey">Calendar</a>
+          <a href="/handbook.html" class="w3-bar-item w3-button w3-black w3-text-grey">Handbook</a>
+          <a href="/driveteam.html" class="w3-bar-item w3-button w3-black w3-text-grey">Drive Team</a>
         </div>
-      </div>
-      </div>
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+      </div>    
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon w3-text-grey" onclick="barsClicked()"><i class="fa fa-bars"></i></a>
     </div>
     <div class="w3-cell-row">
       <div class="w3-cell w3-container w3-white" id="mainContent">

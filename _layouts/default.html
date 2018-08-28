@@ -5,91 +5,92 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"> </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="style sheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
     <link rel="stylesheet" type="text/css" href="/css/banners.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="style sheet">
   </head>
   <body id="mainBody">
-    <div id="header">
-      <div id="title">PioNerds 4506</div>
-      <div id="bannerSection">
+    <div class="w3-cell-row" id="header">
+      <div class="w3-cell w3-container" id="logo">
+        <img src="/assets/img/PioNerds_logo.png">
+      </div>
+      <div class="w3-cell w3-container" id="title">PioNerds 4506</div>
+      <div class="w3-cell w3-container" id="bannerSection">
         <ul class="banners">
           <li><img src="/assets/img/FirstLogo.png">2017 Iowa Regional Champions</li>
         </ul>
-      </div> 
-      <div>
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-<!--            <div class="collapse navbar-collapse" id="myNavbar">-->
-              <ul class="nav navbar-nav" id="mainNav">
-                <li><a href="/index.html">Home</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-                  <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/team.html">The Team</a></li>
-                    <li><a href="/leaders.html">Student Leaders</a></li>
-<!--                    <li><a href="/mentors.html">Mentors</a></li>-->
-                  </ul>
-                </li>
-                <li><a href="/firstrobotics.html">FRC</a></li>
-                <li><a href="/firstlegoleague.html">FLL</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media
-                  <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/photos.html">Photos</a></li>
-                    <li><a href="/videos.html">Videos</a></li>
-                    <li><a href="/publicity.html">Publicity</a></li>
-                  </ul>
-                </li>
-                <li><a href="/resources.html">Resources</a></li>
-                <li><a href="/sponsors.html">Sponsors</a></li>
-<!--                <li><a href="/members.html">Members</a></li>-->
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Members
-                  <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/announcements.html">Announcements</a></li>
-                    <li><a href="/calendar.html">Calendar</a></li>
-                    <li><a href="/handbook.html">Handbook</a></li>
-                    <li><a href="/driveteam.html">Drive Team</a></li>
-                  </ul>
-                </li>
-</ul>
-              <ul class="nav navbar-nav navbar-right" id="socialMediaNav">
-                <li><a href="https://www.facebook.com/Pionerds4506/" target="_blank"><img src="assets/img/facebook.png" /></a></li>
-                <li><a href="https://twitter.com/hmrobotics4506" target="_blank"><img src="assets/img/twitter.png" /></a></li>
-              </ul>
-<!--            </div>-->
-          </div>
-        </nav>
       </div>
-    </div>    
-    <div id="sponsors">
-      <h1>Thank you sponsors</h1>
-      <img src="/assets/img/sponsors/3M.png">
-      <img src="/assets/img/sponsors/SchmelzCountrySide.png">
-      <img src="/assets/img/sponsors/API.png">
-      <img src="/assets/img/sponsors/RochefordPlasticSurgery.png">
-      <img src="/assets/img/sponsors/ReilingConstruction.png"> 
-<!--      <img style="width:140px; height: 76px;" src="/assets/img/sponsors/ReilingConstruction.png">-->
     </div>
-    <div id="mainSection">
-        
-      {{ content }}
-        
+    <div class="w3-bar w3-card-4 w3-black">
+      <a href="/index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Home</a>
+      <div class="w3-hide-small">
+      <div class="w3-dropdown-click w3-text-grey w3-hover-text-white">
+        <button class="w3-button" onclick="aboutNavClicked()">About <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="aboutNav">
+          <a href="/team.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">The Team</a>
+          <a href="/leaders.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Student Leaders</a>
+        </div>
+      </div>
+      <a href="/firstrobotics.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FRC</a>
+      <a href="/firsttechchallenge.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FTC</a>
+      <a href="/firstlegoleague.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">FLL</a>
+      <div class="w3-dropdown-click w3-text-grey w3-hover-text-whitel">
+        <button class="w3-button" onclick="mediaNavClicked()">Media <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="mediaNav">
+          <a href="/photos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Photos</a>
+          <a href="/videos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Videos</a>
+          <a href="/publicity.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Publicity</a>
+        </div>
+      </div>
+      <a href="/resources.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-whitel">Resources</a>
+      <a href="/sponsors.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Sponsors</a>
+      <div class="w3-dropdown-click w3-text-grey w3-hover-text-white">
+        <button class="w3-button" onclick="membersNavClicked()">Members <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black" id="membersNav">
+          <a href="/announcements.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Announcements</a>
+          <a href="/calendar.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Calendar</a>
+          <a href="/handbook.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Handbook</a>
+          <a href="/driveteam.html" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white">Drive Team</a>
+        </div>
+      </div>
+      </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-text-grey w3-hover-grey w3-hover-text-white w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
     </div>
-    <div id="footer">
-      <a href="http://www.hill-murray.org/" target="_blank"> <img src="/assets/img/Hill-MurrayLogo.png"> </a>
-<!--         <div id="flexCont">
-            <div style="padding: 10px; ">
-               <p>Team 4506</p>
-               <p>TBD</p>
-            </div>
-         </div>-->
+    <div class="w3-cell-row">
+      <div class="w3-cell w3-container w3-white" id="mainContent">
+        {{ content }}
+      </div>
+      <div class="w3-cell" id="sponsors">
+        <h1>Sponsors</h1>
+        <div class="w3-container">
+          <ul>
+            <li><img src="/assets/img/sponsors/3M.png" class="w3-image"></li>
+            <li><img src="/assets/img/sponsors/RochefordPlasticSurgery.png" class="w3-image"></li>
+            <li><img src="/assets/img/sponsors/SchmelzCountrySide.png" class="w3-image"></li>
+            <li><img src="/assets/img/sponsors/API.png" class="w3-image"></li>
+            <li><img src="/assets/img/sponsors/ReilingConstruction.png" class="w3-image"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="w3-cell-row" id="footer">
+      <div class="w3-cell w3-container" id="connectWithUs">
+        <div>Connect With Us</div>
+        <div class="socialMedia">
+          <ul id="socialMediaNav">
+            <li><a href="https://www.facebook.com/Pionerds4506/" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/hmrobotics4506" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCsqC-czEqR8hNiAR6NpQAkg" target="_blank"><i class="fa fa-2x fa-youtube-square"></i></a></li>
+          </ul>          
+        </div>  
+      </div>
+      <div class="w3-cell w3-container" id="footerSpace">
+      </div>    
+      <div class="w3-cell w3-container" id="schoolInfo">
+        <a href="http://www.hill-murray.org/" target="_blank"> <img src="/assets/img/Hill-MurrayLogo.png"> </a>
+      </div>
     </div>
   </body>
   <script src="/js/navigation.js"> </script>

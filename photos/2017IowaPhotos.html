@@ -2,46 +2,53 @@
 layout: default
 ---
 
-{% include mediaNavigation.html %}
+<link rel="stylesheet" type="text/css" href="/css/photogallery.css">
 
-<div class="photoGallery" id="gallery">
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/32904529304_e6f72d647a_b.jpg" onclick="onPhotoClick(this)" />
+<div class="w3-container">
+  <div class="w3-cell-row">
+    <h2>2017 Iowa Regional</h2>
   </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/32904817694_e95331ecb7_b.jpg" onclick="onPhotoClick(this)" />
+  <div class="w3-cell-row photoGalleryRow">
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/32904529304_e6f72d647a_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/32904817694_e95331ecb7_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/32934774583_0057d68591_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/32963799164_3a0dea5724_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/32993872243_ee01606bf3_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33421930430_a91c3aed1c_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33650487962_29eb1fa7f4_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33706972486_34e84f9cbb_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33706992986_73f33f80e8_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33766079706_4882e2a831_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
+    <div class="w3-cell w3-mobile photo">
+      <img src="/assets/season/2017/photos/IowaRegional/33766296316_b6cc31ed28_b.jpg" onclick="onPhotoClick(this)" class="w3-image w3-hover-opacity" />
+    </div>
   </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/32934774583_0057d68591_b.jpg" onclick="onPhotoClick(this)" />
+  <div class="w3-modal" id="photoModal" onclick="this.style.display='none'">
+    <div class="w3-modal-content w3-animate-zoom">
+      <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+      <img id="modalImg">
+    </div>
   </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/32963799164_3a0dea5724_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/32993872243_ee01606bf3_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33421930430_a91c3aed1c_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33650487962_29eb1fa7f4_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33706972486_34e84f9cbb_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33706992986_73f33f80e8_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33766079706_4882e2a831_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="photo">
-    <img src="/assets/season/2017/photos/IowaRegional/33766296316_b6cc31ed28_b.jpg" onclick="onPhotoClick(this)" />
-  </div>
-  <div class="endPhoto"></div>
-</div>
-<div class="hidePhoto" id="fullPhoto">
-  <img id="photoImg" onclick="onFullPhotoClick()"> 
 </div>
 
 <script src="/js/mediaNavigation.js"> </script>

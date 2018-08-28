@@ -1,0 +1,19 @@
+.tabContainer hr {
+  margin-top: 0px;
+}
+
+.tabHeader {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0px;
+ }
+
+.tabButton {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-weight: bold;   
+}
+
+.active {
+  background-color: lightgrey;
+}

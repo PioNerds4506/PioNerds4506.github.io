@@ -1,27 +1,14 @@
 ---
 layout: default
 ---
-<script src="js/moment.js"> </script>
-<script src="js/fullcalendar.js"> </script>
-<script src="js/pionerdsCal.js"> </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/calendar.css">
 
 {% include membersNavigation.html %}
 
-<div id="calendarPage">
-  <div id="calendarSection">
-    <div><span id="frcCalendarKey">First Robotics Team events</span><span id="fllCalendarKey">First Lego League Team events</span></div>
-<!--    <div id="frcCalendarKey">First Robotics Team events</div>
-    <div id="fllCalendarKey">First Lego League Team events</div>-->
-    <div id="calendar"></div>
-    <div id="eventContent" title="Event Details" style="display:none;">
-      Start: <span id="startTime"></span><br>
-      <div id="endTimeLabel">End: <span id="endTime"></span></div><br><br>
-      <p id="eventInfo"></p>
-      <p id="urlLink" class="hideURL"><strong><a id="eventLink" href="" target="_blank">Read More</a></strong></p>
-    </div>
+<div class="w3-cell-row w3-center">
+  <div class="w3-cell w3-mobile w3-center w3-container googleCalendar">
+    <iframe src="https://calendar.google.com/calendar/embed?title=PioNerds%20Robotics&amp;src=pionerds4506%40gmail.com&ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="monthCalendar"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?title=PioNerds%20Robotics&amp;mode=AGENDA&amp;src=pionerds4506%40gmail.com&ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="agendaCalendar"></iframe>
   </div>
 </div>
 

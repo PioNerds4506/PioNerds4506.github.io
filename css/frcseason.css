@@ -1,0 +1,27 @@
+.frcSeasonHeader hr {
+  margin-top: 0px;
+}
+
+.gameDescription {
+  width: 40%;
+}
+
+.gameRevealContainer {
+  width: 60%;
+  height: 100%;
+}
+
+.gameRevealVideo {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.gameRevealVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

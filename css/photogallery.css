@@ -1,0 +1,21 @@
+.photoGalleryRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  padding: 4px;
+  align-content: center;
+}
+
+.photoGalleryRow img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+#modalImg {
+  width: 100%;
+  object-fit: contain;
+}

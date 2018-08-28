@@ -1,20 +1,15 @@
 .banners {
    display: block;
    margin: 0 auto;
-/*   width: 100vw; */
-   height: 160px;
    text-align: center;
    padding: 0 20px;
    line-height: 1.2;
-   &::-webkit-scrollbar
-      display: none;
 }
 
 .banners li {
    vertical-align: top;
-   display: inline-block;
+   list-style-type: none;
    margin: 0 3px 30px;
-   width: 100px;
    text-align: center;
    text-transform: uppercase;
    position: relative;
@@ -23,25 +18,87 @@
    padding: 10px;
    float: right;
 }
-    
-.banners li img {
-   width: 75px;
-   margin-bottom: 20px;
-}
 
 .banners li:after {
-      content: '';
-      position: absolute;
-      display: block;
+   content: '';
+   position: absolute;
+   display: block;
+   border-top-width: 5px;
+   top: 100%;
+   left: 0;
+   filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1));
+   -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1));
+}
+
+@media only screen and (max-width: 600px) {
+   /* For mobile phones: */
+   .banners {
+      height: 70px;
+      padding-top: 0px;
+      margin-top: -10px;
+   }
+
+   .banners li {
+      width: 60px;
+      font-size: 8px;
+      padding-left: 6px;
+   }
+
+   .banners li img {
+      width: 25px;
+      margin-bottom: 4px;
+      margin-left: 5px;
+   }
+
+   .banners li:after {
+      border: 30px solid #0f4bcb;
+      border-top-width: 5px;
+      border-bottom: 9px transparent solid;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+   /* For tablets: */
+   .banners {
+      height: 100px;
+   }
+
+   .banners li {
+      width: 76px;
+      font-size: 10px;
+   }
+
+   .banners li img {
+      width: 50px;
+      margin-bottom: 10px;
+   }
+
+   .banners li:after {
+      border: 38px solid #0f4bcb;
+      border-top-width: 5px;
+      border-bottom: 12px transparent solid;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   /* For desktop: */
+   .banners {
+      height: 160px;
+   }
+   
+   .banners li {
+      width: 100px;
+      font-size: 14px;
+   }
+
+   .banners li img {
+      width: 75px;
+      margin-bottom: 15px;
+   }
+
+   .banners li:after {
       border: 50px solid #0f4bcb;
       border-top-width: 5px;
       border-bottom: 20px transparent solid;
-      top: 100%;
-      left: 0;
-      -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1));
-      -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1));
+   }
 }
-
-@media (max-width: 850px)
-    .banners
-        display: none

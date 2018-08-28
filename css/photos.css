@@ -1,0 +1,36 @@
+.photoGalleryLinks {
+  margin-bottom: 16px;
+}
+
+.photoGalleryLinks h2{
+  margin: 0px;
+}
+
+.photoGalleryLinkContainer {
+  padding: 5px 5px;
+  max-height: 210px;
+}
+
+.photoGalleryLink {
+  position: relative;
+  margin: 0 auto;
+  max-width: 330px;
+}
+
+.photoGalleryLinkTitle {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  width: 100%; 
+}
+
+.photoGalleryLinkTitle h6 {
+  margin: 0px;
+  text-align: center;
+}
+
+.photoGalleryLink img {
+  width: 100%;
+  min-width: 200px;
+}

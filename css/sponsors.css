@@ -1,0 +1,83 @@
+#sponsors {
+  /* hide sponsors on right */
+  display: none;
+}
+
+#mainContent {
+  /* make full width since removed sponsors on right */
+  width: 100%;
+}
+
+.sponsorColumn h3 {
+  margin: 0px;
+  font-size: 3vw;
+}
+
+.sponsorColumn img {
+  padding: 10px;
+}
+
+.sponsorshipTable {
+  padding: 0px 8px;
+}
+
+.sponsorshipHeader {
+  color: #007F14;
+  text-shadow: 2px 0px white;
+}
+
+.sponsorshipHeader h2 {
+  margin: 0px;
+}
+
+.sponsorLevelNameAndAmount {
+  font-weight: bold;
+  padding: 5px;
+  color: #007F14;
+  width: 100px;
+}
+
+.sponsorLevel {
+  margin: 8px 0px;
+}
+
+.sponsorshipLevelDescription ul {
+  padding: 5px;
+  margin: 0px;
+}
+
+.sponsorshipLevelDescription li {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .sponsorshipHeader h2{
+    font-size: 3vw;
+  }
+  .sponsorshipLevelName {
+    font-size: 2vw;
+  }
+  .sponsorshipLevelAmount {
+    font-size: 2vw;
+  }
+  .sponsorshipLevelDescription {
+    font-size: 2vw;
+  }
+  .sponsorColumn h3 {
+    margin: 0px;
+    font-size: 8vw;
+  }
+  .sponsorColumn img {
+    padding: 10px;
+    max-width: 200px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+}

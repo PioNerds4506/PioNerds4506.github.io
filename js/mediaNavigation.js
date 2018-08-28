@@ -1,5 +1,5 @@
-$("#mediaNavtab a").on("click", function(){
-   $("#mediaNavtab li").find(".active").removeClass("active");
+$("#mediaTabs a").on("click", function(){
+   $("#mediaTabs a").find(".active").removeClass("active");
 
    if (!$(this).attr('class'))
    {
@@ -9,14 +9,14 @@ $("#mediaNavtab a").on("click", function(){
 
 $(document).ready(function() {
    var tabList = [];
-   $("#mediaNavtab li").each(function() { tabList.push($(this).text()) });
+   $("#mediaTabs a").each(function() { tabList.push($(this).text()) });
    
    for (i=0; i<tabList.length; i++)
    {
-      if (location.pathname.includes(tabList[i]))
+      if (location.pathname.includes(tabList[i].toLowerCase()))
       {
          $("#mediaHeader").text(tabList[i]);
-         $("#mediaNavtab li").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
+         $("#mediaTabs a").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
          break;
       }
    }

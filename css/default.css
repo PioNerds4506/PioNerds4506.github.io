@@ -1,0 +1,151 @@
+/* generic / global */
+
+hr {
+  border-top-color: black;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+ 
+h5 {
+  font-weight: bold;
+}
+
+.marginTop-0 {
+  margin-top: 0px;
+}
+
+.pdfDocument {
+  position: relative;
+  height: 0;
+  width: 75%;
+  padding-bottom: 50%;
+}
+
+.pdfDocument object{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Site specific */
+
+html {
+  background: #007F14;
+}
+
+#mainBody {
+  background: #007F14;
+}
+
+/* Header */
+#logo {
+  width: 16.66%;
+  min-width: 60px;
+}
+ 
+#logo img {
+  min-width: 30px;
+  max-width: 138px;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+ 
+#title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  color: black;
+  vertical-align: middle;
+  width: 66.68%;
+}
+
+#bannerSection {
+  width:16.66%;
+  padding-bottom: 0px;
+}
+
+#mainContent {
+  padding: 10px 0px;
+}
+
+#sponsors {
+  background: #EEFFE8;
+  padding: 0px;
+  text-align: center;
+  width: 15%;
+}
+
+#sponsors h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#sponsors ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+#sponsors li {
+  list-style-type: none;
+}
+
+#sponsors li img {
+  padding: 14px;
+  min-width: 100px;
+}
+
+#footer {
+  color: white;
+  background-color: #404040;
+}
+
+#connectWithUs {
+  width:16.66%;
+}
+
+#socialMediaNav {
+  padding-left: 5px;
+}
+
+#socialMediaNav li {
+  list-style-type: none;
+  float: left;
+  padding: 0px 5px;
+}
+
+#socialMediaNav li a img {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 0px;
+} 
+ 
+#footerSpace {
+  width: 66.68%;
+}
+
+#schoolInfo {
+  padding: 10px;
+  width:16.66%;
+}
+
+#schoolInfo a img {
+  max-width: 270px;
+  min-width: 130px;
+  width: 100%;
+  height: auto;
+  max-height: 90px;
+}

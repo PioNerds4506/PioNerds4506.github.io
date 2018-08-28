@@ -1,11 +1,4 @@
 function onPhotoClick(element) {
-   document.getElementById("photoImg").src = element.src;
-   $("#gallery").addClass("hidePhoto");
-   $("#fullPhoto").removeClass("hidePhoto");
-}
-
-function onFullPhotoClick() {
-   document.getElementById("photoImg").src = "";
-   $("#gallery").removeClass("hidePhoto");
-   $("#fullPhoto").addClass("hidePhoto");
+   document.getElementById("modalImg").src = element.src;
+   document.getElementById("photoModal").style.display = "block";
 }

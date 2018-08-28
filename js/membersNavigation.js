@@ -1,5 +1,5 @@
-$("#membersNavtab a").on("click", function(){
-   $("#membersNavtab li").find(".active").removeClass("active");
+$("#membersTabs a").on("click", function(){
+   $("#membersTabs a").find(".active").removeClass("active");
 
    if (!$(this).attr('class'))
    {
@@ -9,7 +9,7 @@ $("#membersNavtab a").on("click", function(){
 
 $(document).ready(function() {
    var tabList = [];
-   $("#membersNavtab li").each(function() { tabList.push($(this).text()) });
+   $("#membersTabs a").each(function() { tabList.push($(this).text()) });
    
    var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1, location.pathname.lastIndexOf("."));
    pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1)
@@ -18,17 +18,16 @@ $(document).ready(function() {
    {
       var temp = tabList[i].replace(" ","");
 
-//      if (tabList[i].includes(pageName))
       if (location.pathname.includes(tabList[i]))
       {
          $("#membersHeader").text(tabList[i]);
-         $("#membersNavtab li").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
+         $("#membersTabs a").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
          break;
       }
       else if (location.pathname.includes(tabList[i].replace(" ","").toLowerCase()))
       {
          $("#membersHeader").text(tabList[i]);
-         $("#membersNavtab li").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
+         $("#membersTabs a").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
          break;         
       }
    }

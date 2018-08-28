@@ -1,5 +1,5 @@
-$("#aboutNavtab a").on("click", function(){
-   $("#aboutNavtab li").find(".active").removeClass("active");
+$("#aboutTabs a").on("click", function(){
+   $("#aboutTabs a").find(".active").removeClass("active");
 
    if (!$(this).attr('class'))
    {
@@ -9,7 +9,7 @@ $("#aboutNavtab a").on("click", function(){
 
 $(document).ready(function() {
    var tabList = [];
-   $("#aboutNavtab li").each(function() { tabList.push($(this).text()) });
+   $("#aboutTabs a").each(function() { tabList.push($(this).text()) });
  
    var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1, location.pathname.lastIndexOf("."));
    pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1)
@@ -19,7 +19,7 @@ $(document).ready(function() {
       if (tabList[i].includes(pageName))
       {
          $("#aboutHeader").text(tabList[i]);
-         $("#aboutNavtab li").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
+         $("#aboutTabs a").each(function() { if ($(this).text() == tabList[i]) $(this).addClass("active") });
          break;
       }
    }

@@ -56,7 +56,7 @@ html {
 }
  
 #logo img {
-  min-width: 30px;
+  min-width: 60px;
   max-width: 138px;
   width: 100%;
   height: auto;
@@ -149,48 +149,6 @@ html {
   height: auto;
   max-height: 90px;
 }
-/*
-.topNav {
-  overflow: hidden;
-}
-
-.topnNav a {
-  float: left;
-  display: block;
-  background-color: black;
-}
-
-.topNav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topNav a:not(:first-child), .w3-dropdown-click .w3-button {
-    display: none;
-  }
-  .topNav a.icon {
-    float: right;
-    display: block;
-  }
-  .topNav.responsive {position: relative;}
-  .topNav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topNav.responsive a {
-    float: left;
-    display: block;
-    text-align: left;
-  }
-  .topNav.responsive .w3-dropdown-click {float: none;}
-  .topNav.responsive .w3-dropdown-content {position: relative;}
-  .topNav.responsive .w3-dropdown-click .w3-button {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}*/
 
 .topnav {
   overflow: hidden;
@@ -247,6 +205,7 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  /* For mobile phones: */
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -272,4 +231,15 @@ html {
     width: 100%;
     text-align: left;
   }
+
+  #sponsors {
+    width: 10%;
+  }
+  #sponsors li img {
+    padding: 8px;
+    min-width: 100px;
+  }
+  #sponsors h1 {
+    font-size: 4vw;
+  }  
 }

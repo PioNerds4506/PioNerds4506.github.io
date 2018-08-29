@@ -35,13 +35,15 @@
    .banners {
       height: 70px;
       padding-top: 0px;
-      margin-top: -10px;
+      padding-right: 10px;
+      margin-bottom: 0px;
    }
 
    .banners li {
       width: 60px;
       font-size: 8px;
       padding-left: 6px;
+      margin-bottom: 15px;
    }
 
    .banners li img {

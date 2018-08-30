@@ -11,10 +11,16 @@
   max-height: 210px;
 }
 
+.photoGalleryLinksRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .photoGalleryLink {
   position: relative;
-  margin: 0 auto;
-  max-width: 330px;
+  margin: 0px auto;
+  max-width: 220px;
+
 }
 
 .photoGalleryLinkTitle {

@@ -31,7 +31,7 @@ The following software is needed to allow for versioning, running the website lo
 
 ## **Directory Structure**
 
-(/assets/documents/WebsiteInstructions/DirectoryStructure.png)
+!(/assets/documents/WebsiteInstructions/DirectoryStructure.png)
 
 An overview of what each of these does:
 

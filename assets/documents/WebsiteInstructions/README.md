@@ -38,7 +38,7 @@ An overview of what each of these does:
 | File/Directory | Description |
 | --- | --- |
 | _config.yml | Stores configuration data.  See https://jekyllrb.com/docs/configuration/ for more details on Jekyll configuration. |
-| _includes | There are the partials that can be mixed and matched by the layouts to facilitate reuse.  The liquid tag *{% include file.ext %}* can be used to include the partial in *_includes/file.ext*. |
+| _includes | There are the partials that can be mixed and matched by the layouts to facilitate reuse.  The liquid tag *<code>{% include file.ext %}</code>* can be used to include the partial in *_includes/file.ext*. |
 | _layouts | These are the templates that wrap around your content.  They allow to have the source code for the template in one place so we don’t have to repeat thinks like navigation and footer on every page. |
 | _data | Well-formatted site data is placed here.  The Jekyll engine will autoload all data files (using either the *.yml*, *.yaml*, *.json*, *.csv* or *.tsv* formats and extensions) in this directory, and they will be assessible vial ‘site.data’. |
 | _site | This is where the generated site will be placed once Jekyll is done transforming it. |
